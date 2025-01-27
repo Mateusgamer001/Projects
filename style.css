@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    gap: 0;
+    
+}
+
+body {
+    background-color: #f1f0e9;
+}
+
+.corpo {
+    margin: auto;
+    width: 1120px;
+}
+
+#Busan {
+    width: 1120px;
+    height: 660px;
+    padding: 0 0 24px 0;
+}
+
+main {
+    border-top: rgba(128, 128, 128, 0.24) 1px solid;
+    padding: 64px 0 0 0;
+}
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 0 40px 0;
+}
+
+#alinhar {
+    text-align: center;
+    padding: 0 0 44px 0;
+}
+
+h1 + p {
+    padding: 8px 0 0 0;
+}
+
+h5 {
+    color: rgb(221, 75, 21)
+}

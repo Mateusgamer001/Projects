@@ -1,0 +1,9 @@
+{
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on"
+  
+}
