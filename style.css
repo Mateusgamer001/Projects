@@ -9,7 +9,7 @@ body {
 }
 
 .corpo {
-    margin: auto;
+    margin: 50px auto ;
     width: 1120px;
 }
 
@@ -48,11 +48,30 @@ h1 + p {
     padding: 8px 0 0 0;
 }
 
+h1{
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    ;
+}
 h5 {
     color: rgb(221, 75, 21);
-    
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
-
+#linha{
+    margin: 0 0 0 35px;
+}
+#linha::marker {
+    font-size: 25px;
+}
+ul > li {
+    font-weight: bold;
+    font-size: 14px;
+}
 ol{
     padding-inline-start: 0;
     margin-block-start: 0;
@@ -65,9 +84,11 @@ ul {
 
 li::marker{
     color: black;
-    
+    font-size: 16px
     } 
-
+li{
+    font-family: "Open Sans", sans-serif;
+}
 #azul{
     color: blue;
 }
@@ -81,6 +102,14 @@ li::marker{
     color: orangered;
 }
 
-main + p {
-    padding-top: 40px 0 0 0;
+.separar {
+    padding-top: 40px;
+    text-align: center;
 }
+
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+    font-family: "Alice", sans-serif;
+}
+
