@@ -55,6 +55,7 @@ h1{
 h2{
     font-family: "Open Sans", sans-serif;
     font-size: 28px;
+    padding: 0 0 5px 0;
     ;
 }
 h5 {
@@ -67,6 +68,7 @@ h5 {
 }
 #linha::marker {
     font-size: 25px;
+    font-weight: bold;
 }
 ul > li {
     font-weight: bold;
